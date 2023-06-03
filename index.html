@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<!-- Designined by CodingLab | www.youtube.com/codinglabyt -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Responsive Portfolio Website | CodingLab </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <!-- Move to up button -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  <!-- navgaition menu -->
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#">Portfolio.</a></div>
+      <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+      </ul>
+      <div class="media-icons">
+        <a href="https://www.linkedin.com/in/abhishek-shinde-230425221/"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+<!-- Home Section Start -->
+ <section class="home" id="home">
+   <div class="home-content">
+     <div class="text">
+       <div class="text-one">Hello,</div>
+       <div class="text-two">I'm Abhi Shinde</div>
+       <div class="text-three">Software Devloper</div>
+       <div class="text-four">From India</div>
+     </div>
+     <div class="button">
+       <button id="buttonEl" onclick="myFunction()">Hire Me</button>
+       <script>
+        function myFunction() {
+          window.open('https://www.linkedin.com/in/abhishek-shinde-230425221/');
+        }
+       </script>
+     </div>
+   </div>
+ </section>
+
+<!-- About Section Start -->
+<section class="about" id="about">
+  <div class="content">
+    <div class="title"><span>About Me</span></div>
+  <div class="about-details">
+    <div class="left">
+      <img src="images/about.png" alt="">
+    </div>  
+    <div class="right">
+      <div class="topic">Devlopment Is My Passion</div>
+      <p>Hi there! My name is Abhishek Shinde and I'm a software developer with a passion for creating innovative solutions to complex problems. I recently graduated from [swami ramanand teerth marathwada university/COCSIT COLLEGE] with a degree in Computer Science and have gained experience through personal projects. I have Hands On experience in programming languages such as Html, CSS, Python, JavaScript, and Reactjs and have worked on projects in web development and data analysis. I am also familiar with software development tools and technologies such as Git, Agile methodology, and database management systems. In my free time, I enjoy attending coding workshops, participating in coding challenges, and collaborating with other developers to build exciting projects. I am a quick learner, detail-oriented, and always seeking new challenges to grow my skills. If you have any questions or would like to connect, please don't hesitate to reach out to me.</p>
+      <div class="button">
+        <button onclick="Reflctfunction()">View CV</button>
+        <script>
+          function Reflctfunction() {
+            window.open('https://drive.google.com/file/d/1hHiX6aQkdB9cF9yK_IRerlZNDYDoWQ3h/view');
+          }
+        </script>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<!-- My Skill Section Start -->
+<!-- Section Tag and Other Div will same where we need to put same CSS -->
+<section class="skills" id="skills">
+ <div class="content">
+   <div class="title"><span>My Skills</span></div>
+   <div class="skills-details">
+     <div class="text">
+       <div class="topic">Skills Reflects Our Knowledge</div>
+       <p>Programming languages: Software developers need to have expertise in one or more programming languages, such as JavaScript, Python, HTMl, or Reactjs, nodeJs. These languages are used to create software applications, websites, and mobile apps.
+
+        Software development tools: Software developers use a variety of tools and technologies to develop, test, and deploy software. These tools include integrated development environments (IDEs), version control systems (such as Git), and software frameworks.</p>
+       <div class="experience">
+         <div class="num"></div>
+         <div class="exp">Fresher <br></div>
+       </div>
+     </div>
+     <div class="boxes">
+       <div class="box">
+         <div class="topic">HTML</div>
+         <div class="per">95%</div>
+       </div>
+       <div class="box">
+         <div class="topic">CSS</div>
+         <div class="per">90%</div>
+       </div>
+       <div class="box">
+         <div class="topic">JavScript</div>
+         <div class="per">85%</div>
+       </div>
+       <div class="box">
+         <div class="topic">PHP</div>
+         <div class="per">70%</div>
+       </div>
+       <div class="box">
+        <div class="topic">Python</div>
+        <div class="per">90%</div>
+      </div>
+      <div class="box">
+        <div class="topic">Reactjs</div>
+        <div class="per">75%</div>
+      </div>
+     </div>
+   </div>
+ </div>
+</section>
+
+<!-- My Services Section Start -->
+ <section class="services" id="services">
+   <div class="content">
+     <div class="title"><span>My projects</span></div>
+     <div class="boxes">
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-desktop"></i>
+       </div>
+       <div class="topic">Fast Food Mangment System</div>
+       <p>This project is a software system designed to manage a fast food restaurant. It is built using Html,css,JavaScript,php and a MySQL database. The system is capable of handling orders, managing inventory, tracking employee schedules, and generating reports on sales, profits, and other metrics.</p>
+       <div class="button">
+        <button class="button">View Details</button>
+        
+       </div>
+      </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-tint"></i>
+       </div>
+       <div class="topic">Bloof Bank Mangment System</div>
+
+       <p>A blood bank management system is a critical tool for managing blood donations, processing blood requests, and maintaining accurate records of blood inventory. This report presents a web-based blood bank management system that uses HTML, CSS, JavaScript, PHP, and SQL to offer a robust and user-friendly solution for blood bank management.</p>
+       <div class="button">
+        <button onclick="openWindow()">View Details</button>
+          <script>
+            function openWindow() {
+              window.open('page.html');
+              }
+          </script>
+       </div>
+      </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-clone"></i>
+       </div>
+       <div class="topic">Stack Overflow Clone Website</div>
+       <p>Stack Overflow is a popular question-and-answer website for programmers. It offers a vast community of developers who help each other with programming-related questions. This report presents a Stack Overflow clone website that uses JavaScript, HTML, CSS, ReactJS, and MongoDB to provide a similar platform for developers to ask and answer questions.</p>
+       <div class="button">
+        <button class="button">View Details</button>
+        
+       </div>
+      </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fab fa-android"></i>
+       </div>
+       <div class="topic">Icon Design</div>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-camera-retro"></i>
+       </div>
+       <div class="topic">Photography</div>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-tablet-alt"></i>
+       </div>
+       <div class="topic">Apps Devlopment</div>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+     </div>
+   </div>
+   </div>
+ </section>
+
+<!-- Contact Me section Start -->
+<section class="contact" id="contact">
+  <div class="content">
+    <div class="title"><span>Contact Me</span></div>
+    <div class="text">
+      <div class="topic">Have Any Project?</div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam neque ipsum corrupti dolores, facere numquam voluptate aspernatur sit perferendis qui nisi modi! Recusandae deserunt consequatur voluptatibus alias repellendus nobis eligendi.</p>
+      <div class="button">
+        <button >Let's Chat</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer Section Start -->
+<footer>
+  <div class="text">
+    <span>Created By <a href="#">Abhi s.</a> | &#169; 2021 All Rights Reserved</span>
+  </div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
